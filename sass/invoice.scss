@@ -1,0 +1,12 @@
+$component-active-bg: black;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.delBtn {
+  display: none;
+  transition: 0.5s;
+}
+
+tr:hover .delBtn {
+  display: block;
+}
